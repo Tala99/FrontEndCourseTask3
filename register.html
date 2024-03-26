@@ -16,9 +16,15 @@
         <label for="email">Please enter your email</label><input type="email" name="email" id="email"> <br/>
         <label for="password">Please enter the password you want</label><input type="password" id="password" name="password"><br/>
         <label for="phonenumber">Please enter your phonenumber</label><input type="text" name="phonenumber" id="phonenumber"> <br/>
-        <label for="city">Please enter you city</label><input type="text" name="city" id="city"><br/>
-        <label for="gender">Male</label><input type="radio" name="gender" id="gender" value="male"><br/>
-        <label for="gender">Female</label><input type="radio" name="gender" id="gender" value="Female"><br/>
+        <label for="city">Choose your city:</label>
+  <select name="city" id="city">
+    <option value="istanbul">Istanbul</option>
+    <option value="izmir">Izmir</option>
+    <option value="antalya">Antalya</option>
+    <option value="ankara">Ankara</option>
+  </select><br/>
+        <label for="gender-male">Male</label><input type="radio" name="gender" id="gender-male" value="male"><br/>
+        <label for="gender-female">Female</label><input type="radio" name="gender" id="gender-female" value="Female"><br/>
         <label for="submit"></label><input type="submit"  name="submit" id="submit" value="Submit">
 
     </form>
